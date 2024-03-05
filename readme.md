@@ -2,6 +2,13 @@
   <img alt="React Notion X" src="https://raw.githubusercontent.com/NotionX/react-notion-x/master/media/notion-ts.png" width="689">
 </p>
 
+# Getting Started
+
+```bash
+# project should be build using yarn
+yarn install
+```
+
 # React Notion X
 
 > Fast and accurate React renderer for Notion. TS batteries included. ⚡️
