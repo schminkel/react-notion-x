@@ -1,5 +1,5 @@
 {
-  "name": "notion-compat",
+  "name": "@schminkel/notion-compat",
   "version": "6.16.3",
   "type": "module",
   "description": "Compatibility layer between the official Notion API and unofficial private API.",
@@ -43,5 +43,6 @@
       "--no-warnings",
       "--experimental-specifier-resolution=node"
     ]
-  }
+  },
+  "gitHead": "87c7c5d279cd158c99f86f1b0abec51b6b1dce44"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "notion-types",
+  "name": "@schminkel/notion-types",
   "version": "6.16.3",
   "type": "module",
   "description": "TypeScript types for core Notion data structures.",
@@ -13,5 +13,6 @@
   ],
   "engines": {
     "node": ">=12"
-  }
+  },
+  "gitHead": "87c7c5d279cd158c99f86f1b0abec51b6b1dce44"
 }

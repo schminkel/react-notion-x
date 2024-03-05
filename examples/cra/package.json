@@ -1,5 +1,5 @@
 {
-  "name": "notion-x-example-cra",
+  "name": "@schminkel/notion-x-example-cra",
   "version": "6.16.3",
   "private": true,
   "scripts": {

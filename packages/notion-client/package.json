@@ -1,5 +1,5 @@
 {
-  "name": "notion-client",
+  "name": "@schminkel/notion-client",
   "version": "6.16.3",
   "type": "module",
   "description": "Robust TypeScript client for the unofficial Notion API.",
@@ -37,5 +37,6 @@
       "--no-warnings",
       "--experimental-specifier-resolution=node"
     ]
-  }
+  },
+  "gitHead": "87c7c5d279cd158c99f86f1b0abec51b6b1dce44"
 }
