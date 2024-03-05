@@ -1,7 +1,7 @@
 {
   "name": "@schminkel/notion-x-example-full",
   "version": "6.16.3",
-  "private": true,
+  "private": false,
   "type": "commonjs",
   "scripts": {
     "dev": "next dev",

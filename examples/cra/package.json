@@ -1,7 +1,7 @@
 {
   "name": "@schminkel/notion-x-example-cra",
   "version": "6.16.3",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "GENERATE_SOURCEMAP=false react-scripts start",
     "start": "GENERATE_SOURCEMAP=false react-scripts start",
