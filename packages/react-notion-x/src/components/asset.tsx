@@ -1,7 +1,7 @@
 import * as React from 'react'
 
-import { BaseContentBlock, Block } from 'notion-types'
-import { getTextContent } from 'notion-utils'
+import { BaseContentBlock, Block } from '@schminkel/notion-types'
+import { getTextContent } from '@schminkel/notion-utils'
 
 import { useNotionContext } from '../context'
 import { getYoutubeId } from '../utils'

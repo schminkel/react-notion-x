@@ -1,4 +1,4 @@
-import { Block } from 'notion-types'
+import { Block } from '@schminkel/notion-types'
 
 export const defaultMapImageUrl = (
   url: string,

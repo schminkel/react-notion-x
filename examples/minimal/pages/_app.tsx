@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 // core styles shared by all of react-notion-x (required)
-import 'react-notion-x/src/styles.css'
+import '@schminkel/react-notion-x/src/styles.css'
 
 import '../styles/globals.css'
 

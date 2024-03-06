@@ -4,23 +4,33 @@
 
 # Getting Started
 
+## project should be build using yarn
 ```bash
-# project should be build using yarn
 yarn install
-
-# publish packages to npm registry
-cd packages/react-notion-x
-yarn publish --access=public
-
-cd packages/notion-utils
-yarn publish --access=public
-
-cd packages/notion-types
-yarn publish --access=public
-
-cd packages/notion-client
-yarn publish --access=public
 ```
+
+## publish packages to npm registry
+```bash
+cd packages/react-notion-x
+yarn publish --access=public --new-version 6.16.6
+```
+```bash
+cd packages/notion-utils
+yarn publish --access=public --new-version 6.16.6
+```
+```bash
+cd packages/notion-types
+yarn publish --access=public --new-version 6.16.6
+```
+```bash
+cd packages/notion-client
+yarn publish --access=public --new-version 6.16.6
+```
+```bash
+cd packages/notion-compat
+yarn publish --access=public --new-version 6.16.6
+```
+
 
 # React Notion X
 
@@ -69,7 +79,7 @@ And if you want even more control, then you're in the right place! 👇👇
 First you'll want to fetch the content for a Notion page:
 
 ```ts
-import { NotionAPI } from 'notion-client'
+import { NotionAPI } from '@schminkel/notion-client'
 
 const notion = new NotionAPI()
 
@@ -80,7 +90,7 @@ Once you have the data for a Notion page, you can render it via React:
 
 ```tsx
 import * as React from 'react'
-import { NotionRenderer } from 'react-notion-x'
+import { NotionRenderer } from '@schminkel/react-notion-x'
 
 export default ({ recordMap }) => (
   <NotionRenderer recordMap={recordMap} fullPage={true} darkMode={false} />
@@ -95,7 +105,7 @@ You'll need to import some CSS styles as well. If you're using Next.js, we recom
 
 ```ts
 // core styles shared by all of react-notion-x (required)
-import 'react-notion-x/src/styles.css'
+import '@schminkel/react-notion-x/src/styles.css'
 
 // used for code syntax highlighting (optional)
 import 'prismjs/themes/prism-tomorrow.css'
@@ -111,11 +121,11 @@ The default imports from `react-notion-x` strive to be as lightweight as possibl
 To use them, you'll need to import the ones you want from `react-notion-x/build/third-party/*`:
 
 ```tsx
-import { Code } from 'react-notion-x/build/third-party/code'
-import { Collection } from 'react-notion-x/build/third-party/collection'
-import { Equation } from 'react-notion-x/build/third-party/equation'
-import { Modal } from 'react-notion-x/build/third-party/modal'
-import { Pdf } from 'react-notion-x/build/third-party/pdf'
+import { Code } from '@schminkel/react-notion-x/build/third-party/code'
+import { Collection } from '@schminkel/react-notion-x/build/third-party/collection'
+import { Equation } from '@schminkel/react-notion-x/build/third-party/equation'
+import { Modal } from '@schminkel/react-notion-x/build/third-party/modal'
+import { Pdf } from '@schminkel/react-notion-x/build/third-party/pdf'
 ```
 
 Note that we strongly recommend lazy-loading these components unless you know you'll need them up front for your use case.
@@ -126,24 +136,24 @@ If you're using Next.js, you can use [next/dynamic](https://nextjs.org/docs/adva
 import dynamic from 'next/dynamic'
 
 const Code = dynamic(() =>
-  import('react-notion-x/build/third-party/code').then((m) => m.Code)
+  import('@schminkel/react-notion-x/build/third-party/code').then((m) => m.Code)
 )
 const Collection = dynamic(() =>
-  import('react-notion-x/build/third-party/collection').then(
+  import('@schminkel/react-notion-x/build/third-party/collection').then(
     (m) => m.Collection
   )
 )
 const Equation = dynamic(() =>
-  import('react-notion-x/build/third-party/equation').then((m) => m.Equation)
+  import('@schminkel/react-notion-x/build/third-party/equation').then((m) => m.Equation)
 )
 const Pdf = dynamic(
-  () => import('react-notion-x/build/third-party/pdf').then((m) => m.Pdf),
+  () => import('@schminkel/react-notion-x/build/third-party/pdf').then((m) => m.Pdf),
   {
     ssr: false
   }
 )
 const Modal = dynamic(
-  () => import('react-notion-x/build/third-party/modal').then((m) => m.Modal),
+  () => import('@schminkel/react-notion-x/build/third-party/modal').then((m) => m.Modal),
   {
     ssr: false
   }

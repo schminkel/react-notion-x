@@ -1,6 +1,6 @@
 {
   "name": "@schminkel/notion-x-example-minimal",
-  "version": "6.16.4",
+  "version": "6.16.6",
   "private": false,
   "type": "commonjs",
   "scripts": {
@@ -11,11 +11,11 @@
   },
   "dependencies": {
     "next": "^12.1.0",
-    "@schminkel/notion-client": "^6.16.4",
-    "@schminkel/notion-utils": "^6.16.4",
+    "@schminkel/notion-client": "^6.16.6",
+    "@schminkel/notion-utils": "^6.16.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "@schminkel/react-notion-x": "^6.16.4"
+    "@schminkel/react-notion-x": "^6.16.6"
   },
   "devDependencies": {
     "@types/node": "^16.11.2",

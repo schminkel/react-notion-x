@@ -1,6 +1,6 @@
 {
   "name": "@schminkel/notion-client",
-  "version": "6.16.4",
+  "version": "6.16.6",
   "type": "module",
   "description": "Robust TypeScript client for the unofficial Notion API.",
   "repository": "NotionX/react-notion-x",
@@ -23,8 +23,8 @@
   },
   "dependencies": {
     "got": "^11.8.1",
-    "@schminkel/notion-types": "^6.16.4",
-    "@schminkel/notion-utils": "^6.16.4",
+    "@schminkel/notion-types": "^6.16.6",
+    "@schminkel/notion-utils": "^6.16.6",
     "p-map": "^5.3.0"
   },
   "ava": {

@@ -1,8 +1,8 @@
 import * as React from 'react'
 
-import * as types from 'notion-types'
+import * as types from '@schminkel/notion-types'
 import throttle from 'lodash.throttle'
-import { getBlockParentPage, getBlockTitle } from 'notion-utils'
+import { getBlockParentPage, getBlockTitle } from '@schminkel/notion-utils'
 
 import { NotionContextConsumer, NotionContextProvider } from '../context'
 import { ClearIcon } from '../icons/clear-icon'

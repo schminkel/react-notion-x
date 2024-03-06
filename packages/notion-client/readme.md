@@ -19,7 +19,7 @@ This package is compatible with server-side V8 contexts such as Node.js, Deno, a
 ## Usage
 
 ```ts
-import { NotionAPI } from 'notion-client'
+import { NotionAPI } from '@schminkel/notion-client'
 
 // you can optionally pass an authToken to access private notion resources
 const api = new NotionAPI()
@@ -44,7 +44,7 @@ You can pass a database ID to the `getPage` method. The response is an object wh
 - `collection`
 - `collection_view`
 
-The value of the `block` property maps the id of each block object present in the database to its corresponding properties like type, parent id, created time, last edited by, and more. 
+The value of the `block` property maps the id of each block object present in the database to its corresponding properties like type, parent id, created time, last edited by, and more.
 
 ```
 {

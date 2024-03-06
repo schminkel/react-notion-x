@@ -1,8 +1,8 @@
 import * as React from 'react'
 
-import { ExtendedRecordMap } from 'notion-types'
-import { getAllPagesInSpace } from 'notion-utils'
-import { defaultMapPageUrl } from 'react-notion-x'
+import { ExtendedRecordMap } from '@schminkel/notion-types'
+import { getAllPagesInSpace } from '@schminkel/notion-utils'
+import { defaultMapPageUrl } from '@schminkel/react-notion-x'
 
 import * as notion from '../lib/notion'
 import { NotionPage } from '../components/NotionPage'

@@ -1,4 +1,4 @@
-import * as types from 'notion-types'
+import * as types from '@schminkel/notion-types'
 
 import { getBlockIcon } from './get-block-icon'
 import { getBlockParentPage } from './get-block-parent-page'

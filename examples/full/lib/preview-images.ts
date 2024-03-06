@@ -1,10 +1,10 @@
 import got from 'got'
 import lqip from 'lqip-modern'
-import { ExtendedRecordMap, PreviewImage, PreviewImageMap } from 'notion-types'
-import { getPageImageUrls } from 'notion-utils'
+import { ExtendedRecordMap, PreviewImage, PreviewImageMap } from '@schminkel/notion-types'
+import { getPageImageUrls } from '@schminkel/notion-utils'
 import pMap from 'p-map'
 import pMemoize from 'p-memoize'
-import { defaultMapImageUrl } from 'react-notion-x'
+import { defaultMapImageUrl } from '@schminkel/react-notion-x'
 
 // NOTE: this is just an example of how to pre-compute preview images.
 // Depending on how many images you're working with, this can potentially be

@@ -1,4 +1,4 @@
-import * as types from 'notion-types'
+import * as types from '@schminkel/notion-types'
 import add from 'date-fns/add/index.js'
 import format from 'date-fns/format/index.js'
 import getDate from 'date-fns/getDate/index.js'
@@ -9,7 +9,7 @@ import getMonth from 'date-fns/getMonth/index.js'
 import getYear from 'date-fns/getYear/index.js'
 import intervalToDuration from 'date-fns/intervalToDuration/index.js'
 import sub from 'date-fns/sub/index.js'
-import { getDateValue, getTextContent } from 'notion-utils'
+import { getDateValue, getTextContent } from '@schminkel/notion-utils'
 
 export interface EvalFormulaContext {
   properties: types.PropertyMap

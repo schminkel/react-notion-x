@@ -19,7 +19,7 @@ This package only exports types and is compatible with both Node.js and browsers
 ## Usage
 
 ```ts
-import * as notion from 'notion-types'
+import * as notion from '@schminkel/notion-types'
 ```
 
 ## Docs

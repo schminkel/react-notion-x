@@ -1,9 +1,9 @@
 import * as React from 'react'
 import Head from 'next/head'
 
-import { ExtendedRecordMap } from 'notion-types'
-import { getPageTitle } from 'notion-utils'
-import { NotionRenderer } from 'react-notion-x'
+import { ExtendedRecordMap } from '@schminkel/notion-types'
+import { getPageTitle } from '@schminkel/notion-utils'
+import { NotionRenderer } from '@schminkel/react-notion-x'
 
 export const NotionPage = ({
   recordMap,

@@ -1,4 +1,4 @@
-import { Block, DateFormat, ExtendedRecordMap } from 'notion-types'
+import { Block, DateFormat, ExtendedRecordMap } from '@schminkel/notion-types'
 
 import { getTextContent } from './get-text-content'
 

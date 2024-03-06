@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { CollectionViewType } from 'notion-types'
+import { CollectionViewType } from '@schminkel/notion-types'
 
 import CollectionViewBoardIcon from './collection-view-board'
 import CollectionViewCalendarIcon from './collection-view-calendar'

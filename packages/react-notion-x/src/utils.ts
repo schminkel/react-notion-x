@@ -1,6 +1,6 @@
-import { BlockMap } from 'notion-types'
+import { BlockMap } from '@schminkel/notion-types'
 
-export { isUrl, formatDate, formatNotionDateTime } from 'notion-utils'
+export { isUrl, formatDate, formatNotionDateTime } from '@schminkel/notion-utils'
 export * from './map-image-url'
 export * from './map-page-url'
 
