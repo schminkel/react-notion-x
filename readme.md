@@ -7,6 +7,19 @@
 ```bash
 # project should be build using yarn
 yarn install
+
+# publish packages to npm registry
+cd packages/react-notion-x
+yarn publish --access=public
+
+cd packages/notion-utils
+yarn publish --access=public
+
+cd packages/notion-types
+yarn publish --access=public
+
+cd packages/notion-client
+yarn publish --access=public
 ```
 
 # React Notion X
